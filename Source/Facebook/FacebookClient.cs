@@ -686,7 +686,7 @@ namespace Facebook
 
                 if (exception == null)
                 {
-                    if (containsEtag && httpHelper != null)
+                    if (/*containsEtag && */httpHelper != null)
                     {
                         var json = new JsonObject();
                         var response = httpHelper.HttpWebResponse;
